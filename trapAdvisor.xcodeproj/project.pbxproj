@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE1F88031EF8E5A500C8F4F1 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88021EF8E5A500C8F4F1 /* Trip.swift */; };
-		EE1F88081EF8E97A00C8F4F1 /* TripListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88071EF8E97A00C8F4F1 /* TripListViewController.swift */; };
-		EE1F880A1EFF39C600C8F4F1 /* TripFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88091EFF39C600C8F4F1 /* TripFormViewController.swift */; };
-		EE1F880C1EFF6AC300C8F4F1 /* TouristAttractionFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F880B1EFF6AC300C8F4F1 /* TouristAttractionFormViewController.swift */; };
-		EE1F880E1EFF709500C8F4F1 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F880D1EFF709500C8F4F1 /* Shared.swift */; };
-		EE1F88121EFF9B9400C8F4F1 /* TouristAttractionAutocomplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88111EFF9B9400C8F4F1 /* TouristAttractionAutocomplete.swift */; };
-		EE4F2B6D1EF715C300F52279 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4F2B6C1EF715C300F52279 /* FriendsViewController.swift */; };
-		EE4F2B6F1EF72BE800F52279 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4F2B6E1EF72BE800F52279 /* TableViewCell.swift */; };
-		EE4F2B731EF77E1C00F52279 /* MostVisitedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4F2B721EF77E1B00F52279 /* MostVisitedViewController.swift */; };
-		EE4F2B751EF77F3800F52279 /* TouristAttraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4F2B741EF77F3800F52279 /* TouristAttraction.swift */; };
+		EE1F88141F00BF1F00C8F4F1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88131F00BF1F00C8F4F1 /* TableViewCell.swift */; };
+		EE1F881A1F00BF3700C8F4F1 /* TouristAttraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88151F00BF3700C8F4F1 /* TouristAttraction.swift */; };
+		EE1F881B1F00BF3700C8F4F1 /* TouristAttractionAutocomplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88161F00BF3700C8F4F1 /* TouristAttractionAutocomplete.swift */; };
+		EE1F881C1F00BF3700C8F4F1 /* TouristAttractionRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88171F00BF3700C8F4F1 /* TouristAttractionRank.swift */; };
+		EE1F881D1F00BF3700C8F4F1 /* Traveller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88181F00BF3700C8F4F1 /* Traveller.swift */; };
+		EE1F881E1F00BF3700C8F4F1 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88191F00BF3700C8F4F1 /* Trip.swift */; };
+		EE1F88291F00BF5800C8F4F1 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F881F1F00BF5800C8F4F1 /* AuthViewController.swift */; };
+		EE1F882A1F00BF5800C8F4F1 /* BestRatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88201F00BF5800C8F4F1 /* BestRatedViewController.swift */; };
+		EE1F882B1F00BF5800C8F4F1 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88211F00BF5800C8F4F1 /* FriendsViewController.swift */; };
+		EE1F882C1F00BF5800C8F4F1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88221F00BF5800C8F4F1 /* HomeViewController.swift */; };
+		EE1F882D1F00BF5800C8F4F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88231F00BF5800C8F4F1 /* LoginViewController.swift */; };
+		EE1F882E1F00BF5800C8F4F1 /* MostVisitedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88241F00BF5800C8F4F1 /* MostVisitedViewController.swift */; };
+		EE1F882F1F00BF5800C8F4F1 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88251F00BF5800C8F4F1 /* Shared.swift */; };
+		EE1F88301F00BF5800C8F4F1 /* TouristAttractionFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88261F00BF5800C8F4F1 /* TouristAttractionFormViewController.swift */; };
+		EE1F88311F00BF5800C8F4F1 /* TripFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88271F00BF5800C8F4F1 /* TripFormViewController.swift */; };
+		EE1F88321F00BF5800C8F4F1 /* TripListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88281F00BF5800C8F4F1 /* TripListViewController.swift */; };
 		EECD20F91EF10EC600FEDAE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD20F81EF10EC600FEDAE7 /* AppDelegate.swift */; };
-		EECD20FB1EF10EC600FEDAE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD20FA1EF10EC600FEDAE7 /* LoginViewController.swift */; };
 		EECD20FE1EF10EC600FEDAE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECD20FC1EF10EC600FEDAE7 /* Main.storyboard */; };
 		EECD21001EF10EC600FEDAE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECD20FF1EF10EC600FEDAE7 /* Assets.xcassets */; };
 		EECD210E1EF10EC600FEDAE7 /* trapAdvisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD210D1EF10EC600FEDAE7 /* trapAdvisorTests.swift */; };
-		EECD21191EF31AE200FEDAE7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD21181EF31AE200FEDAE7 /* HomeViewController.swift */; };
-		EECD21251EF679EF00FEDAE7 /* Traveller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD21241EF679EF00FEDAE7 /* Traveller.swift */; };
-		EEEAB8D51EF709D000F08EDC /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEAB8D41EF709D000F08EDC /* AuthViewController.swift */; };
-		EEF44A1F1EF8B5C100CEC872 /* BestRatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF44A1E1EF8B5C100CEC872 /* BestRatedViewController.swift */; };
-		EEF44A211EF8C56100CEC872 /* TouristAttractionRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF44A201EF8C56100CEC872 /* TouristAttractionRank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,30 +40,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EE1F88021EF8E5A500C8F4F1 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
-		EE1F88071EF8E97A00C8F4F1 /* TripListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripListViewController.swift; sourceTree = "<group>"; };
-		EE1F88091EFF39C600C8F4F1 /* TripFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripFormViewController.swift; sourceTree = "<group>"; };
-		EE1F880B1EFF6AC300C8F4F1 /* TouristAttractionFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouristAttractionFormViewController.swift; sourceTree = "<group>"; };
-		EE1F880D1EFF709500C8F4F1 /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
-		EE1F88111EFF9B9400C8F4F1 /* TouristAttractionAutocomplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouristAttractionAutocomplete.swift; sourceTree = "<group>"; };
-		EE4F2B6C1EF715C300F52279 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
-		EE4F2B6E1EF72BE800F52279 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		EE4F2B721EF77E1B00F52279 /* MostVisitedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostVisitedViewController.swift; sourceTree = "<group>"; };
-		EE4F2B741EF77F3800F52279 /* TouristAttraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouristAttraction.swift; sourceTree = "<group>"; };
+		EE1F88131F00BF1F00C8F4F1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = View/TableViewCell.swift; sourceTree = "<group>"; };
+		EE1F88151F00BF3700C8F4F1 /* TouristAttraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouristAttraction.swift; path = Model/TouristAttraction.swift; sourceTree = "<group>"; };
+		EE1F88161F00BF3700C8F4F1 /* TouristAttractionAutocomplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouristAttractionAutocomplete.swift; path = Model/TouristAttractionAutocomplete.swift; sourceTree = "<group>"; };
+		EE1F88171F00BF3700C8F4F1 /* TouristAttractionRank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouristAttractionRank.swift; path = Model/TouristAttractionRank.swift; sourceTree = "<group>"; };
+		EE1F88181F00BF3700C8F4F1 /* Traveller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Traveller.swift; path = Model/Traveller.swift; sourceTree = "<group>"; };
+		EE1F88191F00BF3700C8F4F1 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trip.swift; path = Model/Trip.swift; sourceTree = "<group>"; };
+		EE1F881F1F00BF5800C8F4F1 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthViewController.swift; path = ViewController/AuthViewController.swift; sourceTree = "<group>"; };
+		EE1F88201F00BF5800C8F4F1 /* BestRatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BestRatedViewController.swift; path = ViewController/BestRatedViewController.swift; sourceTree = "<group>"; };
+		EE1F88211F00BF5800C8F4F1 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsViewController.swift; path = ViewController/FriendsViewController.swift; sourceTree = "<group>"; };
+		EE1F88221F00BF5800C8F4F1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewController/HomeViewController.swift; sourceTree = "<group>"; };
+		EE1F88231F00BF5800C8F4F1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewController/LoginViewController.swift; sourceTree = "<group>"; };
+		EE1F88241F00BF5800C8F4F1 /* MostVisitedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MostVisitedViewController.swift; path = ViewController/MostVisitedViewController.swift; sourceTree = "<group>"; };
+		EE1F88251F00BF5800C8F4F1 /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shared.swift; path = ViewController/Shared.swift; sourceTree = "<group>"; };
+		EE1F88261F00BF5800C8F4F1 /* TouristAttractionFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouristAttractionFormViewController.swift; path = ViewController/TouristAttractionFormViewController.swift; sourceTree = "<group>"; };
+		EE1F88271F00BF5800C8F4F1 /* TripFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripFormViewController.swift; path = ViewController/TripFormViewController.swift; sourceTree = "<group>"; };
+		EE1F88281F00BF5800C8F4F1 /* TripListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripListViewController.swift; path = ViewController/TripListViewController.swift; sourceTree = "<group>"; };
 		EECD20F51EF10EC600FEDAE7 /* trapAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trapAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECD20F81EF10EC600FEDAE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EECD20FA1EF10EC600FEDAE7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EECD20FD1EF10EC600FEDAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EECD20FF1EF10EC600FEDAE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EECD21041EF10EC600FEDAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EECD21091EF10EC600FEDAE7 /* trapAdvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trapAdvisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECD210D1EF10EC600FEDAE7 /* trapAdvisorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trapAdvisorTests.swift; sourceTree = "<group>"; };
 		EECD210F1EF10EC600FEDAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EECD21181EF31AE200FEDAE7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		EECD21241EF679EF00FEDAE7 /* Traveller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Traveller.swift; sourceTree = "<group>"; };
-		EEEAB8D41EF709D000F08EDC /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
-		EEF44A1E1EF8B5C100CEC872 /* BestRatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestRatedViewController.swift; sourceTree = "<group>"; };
-		EEF44A201EF8C56100CEC872 /* TouristAttractionRank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouristAttractionRank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +87,11 @@
 		EE1F88041EF8E7B600C8F4F1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EECD21241EF679EF00FEDAE7 /* Traveller.swift */,
-				EE1F88021EF8E5A500C8F4F1 /* Trip.swift */,
-				EE4F2B741EF77F3800F52279 /* TouristAttraction.swift */,
-				EEF44A201EF8C56100CEC872 /* TouristAttractionRank.swift */,
-				EE1F88111EFF9B9400C8F4F1 /* TouristAttractionAutocomplete.swift */,
+				EE1F88151F00BF3700C8F4F1 /* TouristAttraction.swift */,
+				EE1F88161F00BF3700C8F4F1 /* TouristAttractionAutocomplete.swift */,
+				EE1F88171F00BF3700C8F4F1 /* TouristAttractionRank.swift */,
+				EE1F88181F00BF3700C8F4F1 /* Traveller.swift */,
+				EE1F88191F00BF3700C8F4F1 /* Trip.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -99,16 +99,16 @@
 		EE1F88051EF8E82400C8F4F1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				EE1F880D1EFF709500C8F4F1 /* Shared.swift */,
-				EECD20FA1EF10EC600FEDAE7 /* LoginViewController.swift */,
-				EEEAB8D41EF709D000F08EDC /* AuthViewController.swift */,
-				EECD21181EF31AE200FEDAE7 /* HomeViewController.swift */,
-				EE4F2B6C1EF715C300F52279 /* FriendsViewController.swift */,
-				EE1F88071EF8E97A00C8F4F1 /* TripListViewController.swift */,
-				EE4F2B721EF77E1B00F52279 /* MostVisitedViewController.swift */,
-				EEF44A1E1EF8B5C100CEC872 /* BestRatedViewController.swift */,
-				EE1F88091EFF39C600C8F4F1 /* TripFormViewController.swift */,
-				EE1F880B1EFF6AC300C8F4F1 /* TouristAttractionFormViewController.swift */,
+				EE1F881F1F00BF5800C8F4F1 /* AuthViewController.swift */,
+				EE1F88201F00BF5800C8F4F1 /* BestRatedViewController.swift */,
+				EE1F88211F00BF5800C8F4F1 /* FriendsViewController.swift */,
+				EE1F88221F00BF5800C8F4F1 /* HomeViewController.swift */,
+				EE1F88231F00BF5800C8F4F1 /* LoginViewController.swift */,
+				EE1F88241F00BF5800C8F4F1 /* MostVisitedViewController.swift */,
+				EE1F88251F00BF5800C8F4F1 /* Shared.swift */,
+				EE1F88261F00BF5800C8F4F1 /* TouristAttractionFormViewController.swift */,
+				EE1F88271F00BF5800C8F4F1 /* TripFormViewController.swift */,
+				EE1F88281F00BF5800C8F4F1 /* TripListViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -116,7 +116,7 @@
 		EE1F88061EF8E8B800C8F4F1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EE4F2B6E1EF72BE800F52279 /* TableViewCell.swift */,
+				EE1F88131F00BF1F00C8F4F1 /* TableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -268,23 +268,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF44A211EF8C56100CEC872 /* TouristAttractionRank.swift in Sources */,
-				EECD20FB1EF10EC600FEDAE7 /* LoginViewController.swift in Sources */,
-				EE4F2B6D1EF715C300F52279 /* FriendsViewController.swift in Sources */,
+				EE1F881E1F00BF3700C8F4F1 /* Trip.swift in Sources */,
+				EE1F881B1F00BF3700C8F4F1 /* TouristAttractionAutocomplete.swift in Sources */,
+				EE1F88141F00BF1F00C8F4F1 /* TableViewCell.swift in Sources */,
+				EE1F882C1F00BF5800C8F4F1 /* HomeViewController.swift in Sources */,
+				EE1F882F1F00BF5800C8F4F1 /* Shared.swift in Sources */,
 				EECD20F91EF10EC600FEDAE7 /* AppDelegate.swift in Sources */,
-				EECD21191EF31AE200FEDAE7 /* HomeViewController.swift in Sources */,
-				EE1F880A1EFF39C600C8F4F1 /* TripFormViewController.swift in Sources */,
-				EE4F2B731EF77E1C00F52279 /* MostVisitedViewController.swift in Sources */,
-				EE1F88031EF8E5A500C8F4F1 /* Trip.swift in Sources */,
-				EE1F88121EFF9B9400C8F4F1 /* TouristAttractionAutocomplete.swift in Sources */,
-				EE1F88081EF8E97A00C8F4F1 /* TripListViewController.swift in Sources */,
-				EEEAB8D51EF709D000F08EDC /* AuthViewController.swift in Sources */,
-				EE1F880C1EFF6AC300C8F4F1 /* TouristAttractionFormViewController.swift in Sources */,
-				EE4F2B751EF77F3800F52279 /* TouristAttraction.swift in Sources */,
-				EEF44A1F1EF8B5C100CEC872 /* BestRatedViewController.swift in Sources */,
-				EE4F2B6F1EF72BE800F52279 /* TableViewCell.swift in Sources */,
-				EE1F880E1EFF709500C8F4F1 /* Shared.swift in Sources */,
-				EECD21251EF679EF00FEDAE7 /* Traveller.swift in Sources */,
+				EE1F882A1F00BF5800C8F4F1 /* BestRatedViewController.swift in Sources */,
+				EE1F882E1F00BF5800C8F4F1 /* MostVisitedViewController.swift in Sources */,
+				EE1F882D1F00BF5800C8F4F1 /* LoginViewController.swift in Sources */,
+				EE1F88301F00BF5800C8F4F1 /* TouristAttractionFormViewController.swift in Sources */,
+				EE1F881D1F00BF3700C8F4F1 /* Traveller.swift in Sources */,
+				EE1F88321F00BF5800C8F4F1 /* TripListViewController.swift in Sources */,
+				EE1F881C1F00BF3700C8F4F1 /* TouristAttractionRank.swift in Sources */,
+				EE1F882B1F00BF5800C8F4F1 /* FriendsViewController.swift in Sources */,
+				EE1F881A1F00BF3700C8F4F1 /* TouristAttraction.swift in Sources */,
+				EE1F88291F00BF5800C8F4F1 /* AuthViewController.swift in Sources */,
+				EE1F88311F00BF5800C8F4F1 /* TripFormViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
