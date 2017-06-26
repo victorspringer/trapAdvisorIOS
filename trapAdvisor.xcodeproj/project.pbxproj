@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1F88031EF8E5A500C8F4F1 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88021EF8E5A500C8F4F1 /* Trip.swift */; };
+		EE1F88081EF8E97A00C8F4F1 /* TripListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88071EF8E97A00C8F4F1 /* TripListViewController.swift */; };
+		EE1F880A1EFF39C600C8F4F1 /* TripFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88091EFF39C600C8F4F1 /* TripFormViewController.swift */; };
+		EE1F880C1EFF6AC300C8F4F1 /* TouristAttractionFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F880B1EFF6AC300C8F4F1 /* TouristAttractionFormViewController.swift */; };
+		EE1F880E1EFF709500C8F4F1 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F880D1EFF709500C8F4F1 /* Shared.swift */; };
+		EE1F88121EFF9B9400C8F4F1 /* TouristAttractionAutocomplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F88111EFF9B9400C8F4F1 /* TouristAttractionAutocomplete.swift */; };
+		EE4F2B6D1EF715C300F52279 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4F2B6C1EF715C300F52279 /* FriendsViewController.swift */; };
+		EE4F2B6F1EF72BE800F52279 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4F2B6E1EF72BE800F52279 /* TableViewCell.swift */; };
+		EE4F2B731EF77E1C00F52279 /* MostVisitedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4F2B721EF77E1B00F52279 /* MostVisitedViewController.swift */; };
+		EE4F2B751EF77F3800F52279 /* TouristAttraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4F2B741EF77F3800F52279 /* TouristAttraction.swift */; };
+		EECD20F91EF10EC600FEDAE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD20F81EF10EC600FEDAE7 /* AppDelegate.swift */; };
+		EECD20FB1EF10EC600FEDAE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD20FA1EF10EC600FEDAE7 /* LoginViewController.swift */; };
+		EECD20FE1EF10EC600FEDAE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECD20FC1EF10EC600FEDAE7 /* Main.storyboard */; };
+		EECD21001EF10EC600FEDAE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECD20FF1EF10EC600FEDAE7 /* Assets.xcassets */; };
+		EECD210E1EF10EC600FEDAE7 /* trapAdvisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD210D1EF10EC600FEDAE7 /* trapAdvisorTests.swift */; };
+		EECD21191EF31AE200FEDAE7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD21181EF31AE200FEDAE7 /* HomeViewController.swift */; };
+		EECD21251EF679EF00FEDAE7 /* Traveller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD21241EF679EF00FEDAE7 /* Traveller.swift */; };
+		EEEAB8D51EF709D000F08EDC /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEAB8D41EF709D000F08EDC /* AuthViewController.swift */; };
+		EEF44A1F1EF8B5C100CEC872 /* BestRatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF44A1E1EF8B5C100CEC872 /* BestRatedViewController.swift */; };
+		EEF44A211EF8C56100CEC872 /* TouristAttractionRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF44A201EF8C56100CEC872 /* TouristAttractionRank.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EECD210A1EF10EC600FEDAE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EECD20ED1EF10EC600FEDAE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECD20F41EF10EC600FEDAE7;
+			remoteInfo = trapAdvisor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE1F88021EF8E5A500C8F4F1 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		EE1F88071EF8E97A00C8F4F1 /* TripListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripListViewController.swift; sourceTree = "<group>"; };
+		EE1F88091EFF39C600C8F4F1 /* TripFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripFormViewController.swift; sourceTree = "<group>"; };
+		EE1F880B1EFF6AC300C8F4F1 /* TouristAttractionFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouristAttractionFormViewController.swift; sourceTree = "<group>"; };
+		EE1F880D1EFF709500C8F4F1 /* Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		EE1F88111EFF9B9400C8F4F1 /* TouristAttractionAutocomplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouristAttractionAutocomplete.swift; sourceTree = "<group>"; };
+		EE4F2B6C1EF715C300F52279 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		EE4F2B6E1EF72BE800F52279 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EE4F2B721EF77E1B00F52279 /* MostVisitedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostVisitedViewController.swift; sourceTree = "<group>"; };
+		EE4F2B741EF77F3800F52279 /* TouristAttraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouristAttraction.swift; sourceTree = "<group>"; };
+		EECD20F51EF10EC600FEDAE7 /* trapAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trapAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECD20F81EF10EC600FEDAE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EECD20FA1EF10EC600FEDAE7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EECD20FD1EF10EC600FEDAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EECD20FF1EF10EC600FEDAE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EECD21041EF10EC600FEDAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECD21091EF10EC600FEDAE7 /* trapAdvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trapAdvisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECD210D1EF10EC600FEDAE7 /* trapAdvisorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trapAdvisorTests.swift; sourceTree = "<group>"; };
+		EECD210F1EF10EC600FEDAE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECD21181EF31AE200FEDAE7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EECD21241EF679EF00FEDAE7 /* Traveller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Traveller.swift; sourceTree = "<group>"; };
+		EEEAB8D41EF709D000F08EDC /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		EEF44A1E1EF8B5C100CEC872 /* BestRatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestRatedViewController.swift; sourceTree = "<group>"; };
+		EEF44A201EF8C56100CEC872 /* TouristAttractionRank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouristAttractionRank.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EECD20F21EF10EC600FEDAE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECD21061EF10EC600FEDAE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1F88041EF8E7B600C8F4F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EECD21241EF679EF00FEDAE7 /* Traveller.swift */,
+				EE1F88021EF8E5A500C8F4F1 /* Trip.swift */,
+				EE4F2B741EF77F3800F52279 /* TouristAttraction.swift */,
+				EEF44A201EF8C56100CEC872 /* TouristAttractionRank.swift */,
+				EE1F88111EFF9B9400C8F4F1 /* TouristAttractionAutocomplete.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EE1F88051EF8E82400C8F4F1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F880D1EFF709500C8F4F1 /* Shared.swift */,
+				EECD20FA1EF10EC600FEDAE7 /* LoginViewController.swift */,
+				EEEAB8D41EF709D000F08EDC /* AuthViewController.swift */,
+				EECD21181EF31AE200FEDAE7 /* HomeViewController.swift */,
+				EE4F2B6C1EF715C300F52279 /* FriendsViewController.swift */,
+				EE1F88071EF8E97A00C8F4F1 /* TripListViewController.swift */,
+				EE4F2B721EF77E1B00F52279 /* MostVisitedViewController.swift */,
+				EEF44A1E1EF8B5C100CEC872 /* BestRatedViewController.swift */,
+				EE1F88091EFF39C600C8F4F1 /* TripFormViewController.swift */,
+				EE1F880B1EFF6AC300C8F4F1 /* TouristAttractionFormViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		EE1F88061EF8E8B800C8F4F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE4F2B6E1EF72BE800F52279 /* TableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EECD20EC1EF10EC600FEDAE7 = {
+			isa = PBXGroup;
+			children = (
+				EECD20F71EF10EC600FEDAE7 /* trapAdvisor */,
+				EECD210C1EF10EC600FEDAE7 /* trapAdvisorTests */,
+				EECD20F61EF10EC600FEDAE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EECD20F61EF10EC600FEDAE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECD20F51EF10EC600FEDAE7 /* trapAdvisor.app */,
+				EECD21091EF10EC600FEDAE7 /* trapAdvisorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EECD20F71EF10EC600FEDAE7 /* trapAdvisor */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F88041EF8E7B600C8F4F1 /* Model */,
+				EE1F88061EF8E8B800C8F4F1 /* View */,
+				EE1F88051EF8E82400C8F4F1 /* ViewController */,
+				EECD20F81EF10EC600FEDAE7 /* AppDelegate.swift */,
+				EECD20FF1EF10EC600FEDAE7 /* Assets.xcassets */,
+				EECD20FC1EF10EC600FEDAE7 /* Main.storyboard */,
+				EECD21041EF10EC600FEDAE7 /* Info.plist */,
+			);
+			path = trapAdvisor;
+			sourceTree = "<group>";
+		};
+		EECD210C1EF10EC600FEDAE7 /* trapAdvisorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EECD210D1EF10EC600FEDAE7 /* trapAdvisorTests.swift */,
+				EECD210F1EF10EC600FEDAE7 /* Info.plist */,
+			);
+			path = trapAdvisorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EECD20F41EF10EC600FEDAE7 /* trapAdvisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECD21121EF10EC600FEDAE7 /* Build configuration list for PBXNativeTarget "trapAdvisor" */;
+			buildPhases = (
+				EECD20F11EF10EC600FEDAE7 /* Sources */,
+				EECD20F21EF10EC600FEDAE7 /* Frameworks */,
+				EECD20F31EF10EC600FEDAE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trapAdvisor;
+			productName = trapAdvisor;
+			productReference = EECD20F51EF10EC600FEDAE7 /* trapAdvisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EECD21081EF10EC600FEDAE7 /* trapAdvisorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECD21151EF10EC600FEDAE7 /* Build configuration list for PBXNativeTarget "trapAdvisorTests" */;
+			buildPhases = (
+				EECD21051EF10EC600FEDAE7 /* Sources */,
+				EECD21061EF10EC600FEDAE7 /* Frameworks */,
+				EECD21071EF10EC600FEDAE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EECD210B1EF10EC600FEDAE7 /* PBXTargetDependency */,
+			);
+			name = trapAdvisorTests;
+			productName = trapAdvisorTests;
+			productReference = EECD21091EF10EC600FEDAE7 /* trapAdvisorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EECD20ED1EF10EC600FEDAE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					startDate,
+				);
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Victor Springer";
+				TargetAttributes = {
+					EECD20F41EF10EC600FEDAE7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = R9W6N8BR92;
+						ProvisioningStyle = Automatic;
+					};
+					EECD21081EF10EC600FEDAE7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EECD20F41EF10EC600FEDAE7;
+					};
+				};
+			};
+			buildConfigurationList = EECD20F01EF10EC600FEDAE7 /* Build configuration list for PBXProject "trapAdvisor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EECD20EC1EF10EC600FEDAE7;
+			productRefGroup = EECD20F61EF10EC600FEDAE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECD20F41EF10EC600FEDAE7 /* trapAdvisor */,
+				EECD21081EF10EC600FEDAE7 /* trapAdvisorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EECD20F31EF10EC600FEDAE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECD21001EF10EC600FEDAE7 /* Assets.xcassets in Resources */,
+				EECD20FE1EF10EC600FEDAE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECD21071EF10EC600FEDAE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EECD20F11EF10EC600FEDAE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF44A211EF8C56100CEC872 /* TouristAttractionRank.swift in Sources */,
+				EECD20FB1EF10EC600FEDAE7 /* LoginViewController.swift in Sources */,
+				EE4F2B6D1EF715C300F52279 /* FriendsViewController.swift in Sources */,
+				EECD20F91EF10EC600FEDAE7 /* AppDelegate.swift in Sources */,
+				EECD21191EF31AE200FEDAE7 /* HomeViewController.swift in Sources */,
+				EE1F880A1EFF39C600C8F4F1 /* TripFormViewController.swift in Sources */,
+				EE4F2B731EF77E1C00F52279 /* MostVisitedViewController.swift in Sources */,
+				EE1F88031EF8E5A500C8F4F1 /* Trip.swift in Sources */,
+				EE1F88121EFF9B9400C8F4F1 /* TouristAttractionAutocomplete.swift in Sources */,
+				EE1F88081EF8E97A00C8F4F1 /* TripListViewController.swift in Sources */,
+				EEEAB8D51EF709D000F08EDC /* AuthViewController.swift in Sources */,
+				EE1F880C1EFF6AC300C8F4F1 /* TouristAttractionFormViewController.swift in Sources */,
+				EE4F2B751EF77F3800F52279 /* TouristAttraction.swift in Sources */,
+				EEF44A1F1EF8B5C100CEC872 /* BestRatedViewController.swift in Sources */,
+				EE4F2B6F1EF72BE800F52279 /* TableViewCell.swift in Sources */,
+				EE1F880E1EFF709500C8F4F1 /* Shared.swift in Sources */,
+				EECD21251EF679EF00FEDAE7 /* Traveller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECD21051EF10EC600FEDAE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECD210E1EF10EC600FEDAE7 /* trapAdvisorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EECD210B1EF10EC600FEDAE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECD20F41EF10EC600FEDAE7 /* trapAdvisor */;
+			targetProxy = EECD210A1EF10EC600FEDAE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EECD20FC1EF10EC600FEDAE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECD20FD1EF10EC600FEDAE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EECD21101EF10EC600FEDAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EECD21111EF10EC600FEDAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EECD21131EF10EC600FEDAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R9W6N8BR92;
+				INFOPLIST_FILE = trapAdvisor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Springer.trapAdvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EECD21141EF10EC600FEDAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R9W6N8BR92;
+				INFOPLIST_FILE = trapAdvisor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Springer.trapAdvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EECD21161EF10EC600FEDAE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = trapAdvisorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Springer.trapAdvisorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trapAdvisor.app/trapAdvisor";
+			};
+			name = Debug;
+		};
+		EECD21171EF10EC600FEDAE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = trapAdvisorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Springer.trapAdvisorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trapAdvisor.app/trapAdvisor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EECD20F01EF10EC600FEDAE7 /* Build configuration list for PBXProject "trapAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECD21101EF10EC600FEDAE7 /* Debug */,
+				EECD21111EF10EC600FEDAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECD21121EF10EC600FEDAE7 /* Build configuration list for PBXNativeTarget "trapAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECD21131EF10EC600FEDAE7 /* Debug */,
+				EECD21141EF10EC600FEDAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECD21151EF10EC600FEDAE7 /* Build configuration list for PBXNativeTarget "trapAdvisorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECD21161EF10EC600FEDAE7 /* Debug */,
+				EECD21171EF10EC600FEDAE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EECD20ED1EF10EC600FEDAE7 /* Project object */;
+}
