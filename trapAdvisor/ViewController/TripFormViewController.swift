@@ -64,7 +64,7 @@ class TripFormViewController: UIViewController {
         if let cookies = HTTPCookieStorage.shared.cookies {
             for cookie in cookies {
                 if cookie.name == "travellerID" {
-                    trip["travellerId"] = Int(cookie.value)
+                    trip["travellerId"] = Int64(cookie.value)
                 }
             }
         }
